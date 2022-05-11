@@ -4,7 +4,7 @@
 # The dataset 
 We will be using is ‘intents.json’. This is a JSON file that contains the patterns we need to find and the responses we want to return to the user.
 
-#How to run
+# How to run
  - Clone this repository or download this repository into your device
  - Open Command Promt (CMD) inside this directory after you download the file
  - Install all requirement using this command "pip install -r requirements.txt"

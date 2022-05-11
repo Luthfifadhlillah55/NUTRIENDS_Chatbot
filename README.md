@@ -11,7 +11,7 @@ We will be using is ‘intents.json’. This is a JSON file that contains the pa
  - Run gui.py file by using this command "python gui.py"
  - Chatbot will appear on your laptop screen.
  - Now you can start chatting with NUTRIENDS chatbot.
- -
+ 
 # Project files
 
 - Intents.json – The data file which has predefined patterns and responses

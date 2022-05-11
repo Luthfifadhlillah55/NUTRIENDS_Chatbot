@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Apa kabar", "Apakah ada orang di sana?", "Hai", "Hello", "Halo", "Selamat siang", "Selamat Pagi", "Morning", "oy", "oii", "Oyy", "Cuy"],
+         "responses": ["Halo, apa yang kamu inginkan?", "Hai, ada yang bisa aku bantu?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Sampai jumpa", "Bye", "Dadah", "Senang mengobrol denganmu, dadah", "Sampai nanti"],
+         "responses": ["Sampai jumpa, terima kasih telah bertanya!", "Semoga harimu menyenangkan", "Bye! Kembali lagi segera."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Terimakasih", "Makasih", "Nuhun"],
+         "responses": ["Sama-sama, senang bisa membantu Anda!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "w", "x", "v", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "?", ".", ",", ":", ";", "\"", "'", "&", "%", "#", "$", "^", "*", "(", ")", "-", "_", "=", "+", "`", "~", "|", "/", "\\", "]", "[", "{", "}", ">", "<", "~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", ",", ".", "?", "/", ";", ":", "\"", "'", "\\", "|", " "],
+         "responses": ["Maaf, tidak dapat memahami Anda", "Tolong beri saya info lebih lanjut", "Saya tidak mengerti yang anda katakan"],
+         "context": [""]
+        },
+        {"tag": "weblink",
+                "patterns": ["Bisakah Anda memberikan link NUTRIENDS?", "Minta link nya dong", "Website nya apa", "Tolong berikan saya link!", "Bagi link", "link apps nya apa?"],
+                "responses": ["Tentu saja, silahkan klik link ini untuk mengakses aplikasi NUTRIENDS: http://nutriends-guide.herokuapp.com/"],
+                "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Bisakah Anda membantu saya?", "Apa yang dapat kamu lakukan?", "Bisa bantu aku?","Bisa bantu saya","Tolong bantu saya", "Bagaimana Anda dapat membantu?", "Dukungan apa yang ditawarkan"],
+         "responses": ["Tentu, aku akan memberikan rekomendasi nutrisi untuk Anda, seperti Body Mass Index, cara menurunkan/menambah berat badan, dan lain-lain."],
+         "context": [""]
+        },
+        {"tag": "Name",
+                "patterns": ["Siapa kamu?", "Siapa namamu?", "Tolong sebutkan namamu!", "Siapa Anda?"],
+                "responses": ["Saya NUTRIENDS bot, chatbot yang memberikan rekomendasi nutrisi untuk Anda.", "Nama saya NUTRIENDS, chatbot yang memberikan rekomendasi nutrisi untuk Anda."],
+                "context": [""]
+        },
+        {"tag": "canda",
+                "patterns": ["laper", "haus", "laper ih"],
+                "responses": ["Sama, jajan yuk!"],
+                "context": [""]
+        },
+        {"tag": "candaa",
+                "patterns": ["hayuk", "hayu", "yoo", "yok", "ayoo", "ayo"],
+                "responses": ["Gapunya uang aku"],
+                "context": [""]
+        },
+        {"tag": "Nama",
+                "patterns": ["Apa itu NUTRIENDS", "NUTRIENDS itu apasih?", "NUTRIENDS apaan?"],
+                "responses": ["NUTRIENDS adalah Your Nutrition Friends, Anda bisa mendapatkan berbagai informasi tentang nutrisi, kalori, dan juga rekomendasi makanan yang Anda butuhkan sesuai kebutuhan nutrisinya"],
+                "context": [""]
+        },
+        {"tag": "lokasi",
+                "patterns": ["Di mana Anda", "Di mana rumah Anda?", "Di mana Anda tinggal?", "Dimana kamu?", "Kamu ada dimana?", "Rumahmu dimana?", "lu dimana"],
+                "responses": ["Aku hanya online Chatbot, dimanapun kamu memiliki koneksi internet, disitu pula kamu bisa menemukan saya"],
+                "context": [""]
+        },
+        {"tag": "Ideal_Weight",
+         "patterns": ["Berapa berat badan ideal manusia?", "Bagaimana menghitung berat badan ideal?", "cara hitung berat ideal"],
+         "responses": ["Rumus untuk menghitung berat badan ideal adalah, Pria : IBW (kgs) = 22 x (tinggi dalam meter)2. Wanita: BBLR (kg) = 22 x (tinggi dalam meter - 10 cm)2."],
+         "context": [""]
+        },
+        {"tag": "BMI_information",
+                "patterns": ["Apa itu BMI?", "BMI itu?", "Indeks Massa Tubuh adalah", "BMI apaan", "BMI apasih", "BMI apa?"],
+                "responses": ["BMI adalah ukuran lemak tubuh berdasarkan tinggi dan berat badan. Ini digunakan untuk menentukan apakah seseorang kurus, kelebihan berat badan, atau sehat.", "Indeks massa tubuh adalah nilai yang diturunkan dari massa dan tinggi badan seseorang. BMI didefinisikan sebagai massa tubuh dibagi dengan kuadrat tinggi badan, dan dinyatakan dalam satuan kg/m², yang dihasilkan dari massa dalam kilogram dan tinggi dalam meter."],
+                "context": [""]
+               },
+        {"tag": "water_consumption",
+         "patterns": ["Bagaimana Saya Bisa Minum Lebih Banyak Air?", "Berapa banyak air yang harus saya minum?", "BErapa gelas air yang harus diminum?" ],
+         "responses": ["Idealnya minum air 8 gelas sehari. Cobalah minum segelas saat bangun tidur dan satu gelas setiap kali makan. Untuk meningkatkan rasa, tambahkan sedikit jeruk, seperti lemon atau jeruk nipis. Hidrasi yang tepat sangat penting untuk kesehatan. Ini membantu mengatur suhu tubuh, membuang limbah, melumasi sendi, membantu mencegah infeksi, mengangkut nutrisi ke sel dan membantu organ berfungsi dengan baik."],
+         "context": [""]
+        },
+        {"tag": "fiber_diet",
+         "patterns": ["Mengapa Saya Harus Makan Diet Tinggi Serat?", "Manfaat diet serat" ],
+         "responses": ["Serat makanan dari buah-buahan, sayuran, biji-bijian dan kacang-kacangan dapat membantu menjaga berat badan yang sehat, menurunkan kolesterol darah dan kadar glukosa, membantu makanan melewati sistem pencernaan, meningkatkan keteraturan dan mencegah sembelit. Bertujuan untuk setidaknya 25 gram per hari."],
+         "context": [""]
+        },
+        {"tag": "breakfast",
+         "patterns": ["Apakah Saya Perlu Sarapan?", "Sarapan penting?", "Malas sarapan, apa itu berpengaruh?", "Dampak tidak sarapan apa yah?"],
+         "responses": ["Mereka yang sarapan cenderung makan lebih sedikit sepanjang hari, dan penelitian menunjukkan bahwa sarapan meningkatkan kinerja kognitif, terutama pada anak usia sekolah. Melewatkan sarapan dapat membuat Anda merasa lelah dan lapar, yang dapat menyebabkan pilihan makanan yang buruk."],
+         "context": [""]
+        },
+        {"tag": "respon",
+                "patterns": ["oh", "oooh", "ogitu", "oh gitu", "salam kenal", "i see"],
+                "responses": ["Iya begitu, salam kenal yah"],
+                "context": [""]
+        },
+        {"tag": "kelompok",
+                "patterns": ["siapa creator nutriends", "nutriends siapa yang buat", "nutriends siapa yang buat?", "siapa pencipta nutriends", "apps nya siapa yang bikin", "nutriends siapa yang bikin?"],
+                "responses": ["NUTRIENDS diciptakan oleh Kamil, Luthfi, Kevin dan Anita"],
+                "context": [""]
+        },
+        {"tag": "healthy_food",
+         "patterns": ["Bagaimana Saya Bisa Makan Lebih Sehat?", "cara makan sehat?" ],
+         "responses": ["Penuhi nutrisi yang dibutuhkan tubuh seperti vitamin, mineral, karbohidrat kompleks, protein tanpa lemak, dan lemak sehat—dengan mengonsumsi beragam makanan padat nutrisi seperti buah-buahan, sayuran, biji bijian, daging tanpa lemak, telur, dan kacang kacangan."],
+         "context": [""]
+        },
+        {"tag": "healthy_fats",
+         "patterns": ["Apa Itu Lemak Sehat?", "healthy fats", "lemak sehat", "lemak sehat apa itu", "lemak sehat apa?"],
+         "responses": ["Lemak tak jenuh, seperti tak jenuh tunggal dan tak jenuh ganda, yang dapat menurunkan risiko penyakit jantung atau stroke dianggap baik untuk Anda. Untuk lemak tak jenuh tunggal, pikirkan minyak zaitun, canola, kacang tanah, dan bunga matahari, serta alpukat dan sebagian besar kacang. Lemak tak jenuh ganda ada dalam minyak jagung dan kedelai dan dalam kenari, wijen, labu, dan biji rami. Asam lemak omega-3 adalah jenis lemak tak jenuh ganda dalam salmon, mackerel, tuna, dan trout."],
+         "context": [""]
+        },
+        {"tag": "fruits_consumption",
+         "patterns": ["Berapa Banyak Buah dan Sayuran yang Harus Saya Makan?", "Sehari harus makan buah?", "Buah dan sayur diperlukan?", "Sayuran penting?", "Buah dan sayuran penting?"],
+         "responses": ["Setidaknya setengah dari piring Anda harus terdiri dari buah-buahan dan sayuran. Anda tidak bisa mendapatkan semua nutrisi yang Anda butuhkan dari satu buah atau sayuran, jadi penting untuk mengonsumsi keduanya. Pria dan wanita berusia antara 19 dan 50 tahun harus menargetkan 2-1/2 hingga 3 cangkir sayuran per hari dan 1-1/2 hingga 2 cangkir buah."],
+         "context": [""]
+        },
+        {"tag": "protein",
+         "patterns": ["Berapa Banyak Protein yang Harus Saya Makan?", "Protein berapa banyak sehari", "Saya butuh protein berapa banyak sehari?" ],
+         "responses": ["Orang dewasa membutuhkan minimal 0,8 gram protein per kilogram berat badan per hari, atau sedikit lebih dari 7 gram protein per 20 pon berat badan. Atlet dan mereka yang berolahraga secara teratur akan membutuhkan lebih banyak. Protein ditemukan di seluruh tubuh, dan sangat penting untuk fungsi sel dan organ, serta memperbaiki dan membangun kembali jaringan otot setelah berolahraga."],
+         "context": [""]
+        },
+        {"tag": "caffeine",
+         "patterns": ["Berapa Banyak Kafein yang Aman?", "Apa minum kopi aman?", "kalo minum kopi aman ga?"],
+         "responses": ["Kebanyakan ahli kesehatan setuju bahwa hingga 400 mg per hari aman untuk orang dewasa rata-rata. Namun, ibu hamil dan anak kecil harus membatasi asupan kafein. Secangkir kopi 8 ons mengandung sekitar 100 mg kafein, sedangkan soda 12 ons mengandung sekitar 50 mg."],
+         "context": [""]
+        },
+        {"tag": "exercise",
+                "patterns": ["Seberapa sering olahraga yang Harus Saya Lakukan?", "Apakah berolahraga di pagi hari lebih baik untuk kita?","Workout yang baik?"],
+                "responses": ["Olahraga yang baik tidak selalu berarti latihan setiap hari. Tiga hingga empat kali olahraga di rumah setiap minggu sudah cukup jika Anda serius melakukannya"],
+                "context": [""]
+        },
+        {"tag": "turunberatbadan",
+                "patterns": ["Apa saja yang harus dilakukan untuk menurunkan berat badan?", "Saya mau menurunkan berat badan", "Gimana caranya nurunin berat badan", "Saya pengen turunin berat badan", "kasih tau cara nurunin berat badan dong"],
+                "responses": ["Untuk menurunkan berat badan, Anda harus memulai pola hidup sehat, seperti bangun pagi hari, berolahraga, makan buah dan sayur, mengurangi konsumsi karbohidrat, dan yang lainnya"],
+                "context": [""]
+        },
+        {"tag": "exercise1",
+                "patterns": ["Berapa lama saya harus berolahraga?", "Olahraga sehari berapa lama?", "pengen olahraga sehari berapa lama?"],
+                "responses": ["Anda harus berolahraga setidaknya 30 menit per hari.", "Ini tergantung pada tingkat kebugaran Anda, jenis latihan apa yang Anda lakukan dan intensitas latihan Anda. Ingatlah, sesuatu selalu lebih baik daripada tidak sama sekali."],
+                "context": [""]
+        }
+   ]
+}
